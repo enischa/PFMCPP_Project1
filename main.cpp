@@ -94,7 +94,7 @@ washer.stopWashing();
 //  6) 
 //  Noun: browser
 //  action 1: add newaddNtab
-browser.newTab();
+browser.addNewTab();
 //  action 2: refresh page
 browser.refresh();
 //  action 3: close window
@@ -110,9 +110,9 @@ bt.pairDevice();
 //  8)
 //  Noun: limiter
 //  asetAtion 1: attack time
-limiter.attackTime(setH;
+limiter.setAttackTime(setH;
 //  action 2: hold
-limiter.hold();
+limiter.setHold();
 //  action 3: limit
 limiter.setLimit();
 //  9)
