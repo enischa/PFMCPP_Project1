@@ -116,13 +116,13 @@ limiter.setHold();
 //  action 3: limit
 limiter.setLimit();
 //  9)
-//  Noun: midi keyboard
-//  action 1: get note number
-midi.getNoteNumber();
-//  action 2: get pitch wheel value
-midi.getPitchWheelValue();
-//  action 3: control number
-midi.getControllerNumber();
+//  Noun: Midi Message Sequence 
+//  action 1: number of events
+midiMessageSequence.getNumEvents();
+//  action 2: time of matching key up
+midiMessageSequence.getTimeOfMatchingKeyUp();
+//  action 3: delete midi channel messages
+midiMessageSequence.deleteMidiChannelMessages();
 //  10)
 //  Noun: gain
 //  action 1: set gain decibels
