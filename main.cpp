@@ -80,7 +80,7 @@ reverb.setDistance();
 //  action 1: import file
 channel1.importFile();
 //  action 2: solo
-channel1.Solo();
+channel1.solo();
 //  action 3: record sound
 channel1.recSound();
 //  5)
@@ -93,7 +93,7 @@ washer.setCottons();
 washer.stopWashing();
 //  6) 
 //  Noun: browser
-//  action 1: add new tab
+//  action 1: add newaddNtab
 browser.newTab();
 //  action 2: refresh page
 browser.refresh();
@@ -109,8 +109,8 @@ bt.receiveFile();
 bt.pairDevice();
 //  8)
 //  Noun: limiter
-//  action 1: attack time
-limiter.attackTime();
+//  asetAtion 1: attack time
+limiter.attackTime(setH;
 //  action 2: hold
 limiter.hold();
 //  action 3: limit
